@@ -1,12 +1,12 @@
-## IP-Data Service - Region
+## IPデータサービス-リージョン
 
 URL: https://ip-data-service-prod.ecbc.live.use1a.on.epicgames.com/region \
-Method: GET \
-Auth Required: Yes (`ipdata:region READ`)
+メソッド: GET \
+認証の有無: はい (`ipdata:region READ`)
 
 ---
 
-_Example Response (shortened)_
+_レスポンス例(短縮)_
 
 ```json
 {
