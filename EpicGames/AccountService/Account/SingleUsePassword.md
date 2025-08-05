@@ -1,15 +1,17 @@
-## Account Service - Send Single Use Password
+## 一時パスワード
 
-URL: https://account-public-service-prod.ol.epicgames.com/account/api/public/account/:email/sendSingleUsePassword \
-Method: POST \
-Auth Required: Yes (`account:public:account:singleUsePassword CREATE`)
+APIエンドポイントURL: https://account-public-service-prod.ol.epicgames.com/account/api/public/account/:email/sendSingleUsePassword \
+メソッド: POST \
+認証が必要？: はい (`account:public:account:singleUsePassword CREATE`)
 
-## Path Parameters
+## パスパラメータ
 
-`email`: The `email` of your Account
+`email`: アカウントの`email`
 
 ---
 
-_Example Response_
+_レスポンス例_
 
-Always returns `Status 204`, as this API doesn't work anymore
+status204
+
+>このAPIはすでに廃止されているため常に204を返します。
