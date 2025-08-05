@@ -1,11 +1,11 @@
-## Account Service - Reset Display Name
+## EpicIDの変更
 
-URL: https://account-public-service-prod.ol.epicgames.com/account/api/public/account/:accountId/resetDisplayName \
-Method: POST \
-Auth Required: Yes (`account:public:account:displayName:resetViaCode CREATE`)
+APIエンドポイントURL: https://account-public-service-prod.ol.epicgames.com/account/api/public/account/:accountId/resetDisplayName \
+メソッド: POST \
+認証が必要？: はい (`account:public:account:displayName:resetViaCode CREATE`)
 
-## Path Parameters
+## パスパラメータ
 
-`accountId`: Your Account Id
+`accountId`: アカウントID
 
-> Unknown Payload & Response as no publicy known Client has this Permission
+> レスポンスが不明です。
