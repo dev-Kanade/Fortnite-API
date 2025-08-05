@@ -1,8 +1,8 @@
-## Account Service - Update Account
+## アカウント更新
 
-URL: https://account-public-service-prod.ol.epicgames.com/account/api/public/account/:accountId \
-Method: PUT \
-Auth Required: Yes (`account:public:account UPDATE`, some need `account:public:account:sensitive UPDATE`)
+APIエンドポイントURL: https://account-public-service-prod.ol.epicgames.com/account/api/public/account/:accountId \
+メソッド: PUT \
+認証が必要？: はい (`account:public:account UPDATE`, 一部必要`account:public:account:sensitive UPDATE`)
 
 ```json
 {
@@ -18,27 +18,25 @@ Auth Required: Yes (`account:public:account UPDATE`, some need `account:public:a
 }
 ```
 
-## Path Parameters
+## パスパラメータ
+`accountId`: アカウントID
 
-`accountId`: Your Account Id
+## パラメータ
 
-## Parameters
+`name`: 変更後の名前 <br/>
+`lastName`:変更後の性<br/>
+`preferredLanguage`: 変更後の優先言語 <br/>
+`displayName`:変更後のEpicID <br/>
+`phoneNumber`: 変更後の電話番号<br/>
+`company`: 変更後の会社<br/>
+`email`: 変更後のメールアドレス <br/>
+`username`: 変更後のユーザー名<br/>
+`password`: 変更後のパスワード <br/>
 
-`name`: Optional, Your new Firstname <br/>
-`lastName`: Optional, Your new Lastname <br/>
-`preferredLanguage`: Optional, Your new Preferred Language <br/>
-`displayName`: Optional, Your new Display Name <br/>
-`phoneNumber`: Optional, Your new Phone-Number <br/>
-`company`: Optional, Your new Company <br/>
-`email`: Optional, Your new Email `[*]` <br/>
-`username`: Optional, Your new Username (could be used instead of an email back then) `[*]` <br/>
-`password`: Optional, Your new Password `[*]` <br/>
-
-`[*]` - Requires the sensitive Permission
 
 ---
 
-_Example Response_
+_レスポンス例_
 
 ```json
 {
