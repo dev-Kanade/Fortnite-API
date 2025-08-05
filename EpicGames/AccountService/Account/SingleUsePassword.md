@@ -12,6 +12,6 @@ APIエンドポイントURL: https://account-public-service-prod.ol.epicgames.co
 
 _レスポンス例_
 
-status204
+status 204
 
 >このAPIはすでに廃止されているため常に204を返します。
