@@ -1,8 +1,8 @@
-## Account Service - Create Account
+## アカウント作成
 
-URL: https://account-public-service-prod.ol.epicgames.com/account/api/public/account \
-Method: POST \
-Auth Required: Yes (`account:public:account CREATE`)
+APIエンドポイントURL: https://account-public-service-prod.ol.epicgames.com/account/api/public/account \
+メソッド: POST \
+認証が必要？: Yes (`account:public:account CREATE`)
 
 ```json
 {
@@ -18,28 +18,28 @@ Auth Required: Yes (`account:public:account CREATE`)
 }
 ```
 
-## Query Parameters
+## クエリパラメータ
 
-`authenticate`: Optional, boolean, Should the response include an oauth session? (Default: False) <br/>
-`tokenType`: Optional, string, The type for the oauth token (ex. `eg1`) <br/>
-`sendEmail` Optional, boolean, Should the email associated receive a verify email? (Default: False)
+`authenticate`: オプション、ブール値、レスポンスに OAuth セッションを含めるか? (デフォルト: False) <br/>
+`tokenType`:オプション、文字列、OAuth トークンのタイプ（例: `eg1`) <br/>
+`sendEmail` :オプション、ブール値、関連付けられているメールに確認メールを受信するか? (デフォルト: False)
 
-## Parameters
+## パラメータ
 
-`name`: Optional, Your Firstname <br/>
-`lastName`: Optional, Your Lastname <br/>
-`preferredLanguage`: Optional, Your new Preferred Language <br/>
-`displayName`: Optional, Your Display Name <br/>
-`phoneNumber`: Optional, Your Phone-Number <br/>
-`company`: Optional, Your Company <br/>
-`email`: Optional, Your Email <br/>
-`username`: Optional, Your Username (could be used instead of an email back then) <br/>
-`password`: Optional, Your Password (required if email/username is specified) <br/>
-`dateOfBirth`: required, Your BirthDate
+`name`: 名前(これは任意の値です） <br/>
+`lastName`:性（これは任意の値です） <br/>
+`preferredLanguage`:優先言語 <br/>
+`displayName`: 表示名(EpicID) <br/>
+`phoneNumber`: 電話番号 <br/>
+`company`: 会社名 <br/>
+`email`: メールアドレス <br/>
+`username`: ユーザー名<br/>
+`password`: パスワード（基本的に任意だがメールアドレス、ユーザー名を指定した場合は必須）<br/>
+`dateOfBirth`: 生年月日（必須９
 
 ---
 
-_Example Response (Full Params)_
+_レスポンス例_
 
 ```json
 {
@@ -69,7 +69,7 @@ _Example Response (Full Params)_
 }
 ```
 
-_Example Response (Credentials Set)_
+_レスポンス例(資格情報設定）_
 
 ```json
 {
@@ -114,7 +114,7 @@ _Example Response (Credentials Set)_
 }
 ```
 
-_Example Response (Headless)_
+_レスポンス例(ヘッドレス)_
 
 ```json
 {
