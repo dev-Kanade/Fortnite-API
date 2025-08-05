@@ -1,10 +1,10 @@
-## Account Service - Validate Credentials
+## 資格情報の検証
 
-URL: https://account-public-service-prod.ol.epicgames.com/account/api/public/account/:accountId/validateCreds \
-Method: POST \
-Auth Required: Yes (`account:public:account:validateCreds READ`)
+APIエンドポイントURL: https://account-public-service-prod.ol.epicgames.com/account/api/public/account/:accountId/validateCreds \
+メソッド: POST \
+認証が必要？: はい (`account:public:account:validateCreds READ`)
 
-## Headers
+## HTTPヘッダー
 
 `Content-Type`: `application/x-www-form-urlencoded`
 
@@ -14,24 +14,24 @@ Auth Required: Yes (`account:public:account:validateCreds READ`)
 usernameOrEmail=XXX&password=YYY
 ```
 
-## Path Parameters
+## パスパラメータ
 
-`accountId`: Your Account Id
+`accountId`: アカウントID
 
-## Parameters
+## パラメータ
 
-`usernameOrEmail`: Your Account `email` or `username` (The `username` is not the `displayName`!) <br/>
-`password`: Your Account password (in plain text)
+`usernameOrEmail`: アカウントの `email` か `username`  <br/>
+`password`: パスワード (in plain text)
 
 ---
 
-_Example Response (Valid)_
+_レスポンス例（有効時）_
 
 Status 204
 
 <br/>
 
-_Example Response (Invalid)_
+_レスポンス例(無効)_
 
 Status 401
 
