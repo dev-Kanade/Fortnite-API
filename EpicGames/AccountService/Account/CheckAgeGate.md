@@ -1,12 +1,12 @@
-## Account Service - Check Age Gate Requirement
+## 年齢制限要件の確認
 
-URL: https://account-public-service-prod.ol.epicgames.com/account/api/public/account/ageGate \
-Method: GET \
-Auth Required: Yes
+APIエンドポイント: https://account-public-service-prod.ol.epicgames.com/account/api/public/account/ageGate \
+メソッド: GET \
+認証が必要？: Yes
 
 ---
 
-_Example Response_
+ _レスポンス例_
 
 ```json
 {
