@@ -1,15 +1,15 @@
-## Account Service - Send Confirmation Email
+## 認証メールの送信
 
-URL: https://account-public-service-prod.ol.epicgames.com/account/api/accounts/:accountId/email \
-Method: GET \
-Auth Required: Yes (`account:accounts:email:sendConfirmation CREATE`)
+APIエンドポイントURL: https://account-public-service-prod.ol.epicgames.com/account/api/accounts/:accountId/email \
+メソッド: GET \
+認証が必要？: はい (`account:accounts:email:sendConfirmation CREATE`)
 
-## Path Parameters
+## パスパラメータ
 
-`accountId`: The target account id
+`accountId`: アカウントID
 
 ---
 
-_Example Response_
+_レスポンス例_
 
 Status 204
