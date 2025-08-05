@@ -2,7 +2,7 @@
 
 APIエンドポイントURL: https://account-public-service-prod.ol.epicgames.com/account/api/public/account \
 メソッド: POST \
-認証が必要？: Yes (`account:public:account CREATE`)
+認証が必要？: はい (`account:public:account CREATE`)
 
 ```json
 {
