@@ -1,8 +1,8 @@
-## Account Service - Get Platform Token
+## プラットフォームトークンの取得
 
-URL: https://account-public-service-prod.ol.epicgames.com/account/api/public/account/:accountId/platformToken/:externalAuthType/:clientId \
-Method: POST \
-Auth Required: Yes (`account:public:account READ`)
+APIエンドポイントURL: https://account-public-service-prod.ol.epicgames.com/account/api/public/account/:accountId/platformToken/:externalAuthType/:clientId \
+メソッド: POST \
+認証が必要？: はい (`account:public:account READ`)
 
 ```json
 {
@@ -10,19 +10,19 @@ Auth Required: Yes (`account:public:account READ`)
 }
 ```
 
-## Path Parameters
+## パスパラメータ
 
-`accountId`: Your Account Id <br/>
-`externalAuthType`: See [External Auth Types](../Authentication/GrantTypes/external_auth.md#body) <br/>
-`clientId`: Unknown Value <br/>
+`accountId`: アカウントID<br/>
+`externalAuthType`:  [外部認証](../Authentication/GrantTypes/external_auth.md#body) <br/>
+`clientId`: 不明 <br/>
 
-## Parameters
+## パラメータ
 
-`exchangeCode`: Issued by the External Provider, see the [External Auth Types](../Authentication/GrantTypes/external_auth.md#body) for more Info
+`exchangeCode`: これは外部のプロバイダによって発行されます。 詳しくは [外部認証タイプ](../Authentication/GrantTypes/external_auth.md#body) を参照してください。
 
 ---
 
-_Example Response_
+_レスポンス例_
 
 ```json
 {
