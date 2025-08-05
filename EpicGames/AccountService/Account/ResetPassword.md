@@ -1,15 +1,14 @@
-## Account Service - Send Password Reset
+## パスワードリセット
 
-URL: https://account-public-service-prod.ol.epicgames.com/account/api/accounts/:accountId/resetPassword \
-Method: POST \
-Auth Required: Yes (`account:accounts:password:sendResetCode CREATE`)
+APIエンドポイントURL: https://account-public-service-prod.ol.epicgames.com/account/api/accounts/:accountId/resetPassword \
+メソッド: POST \
+認証が必要？: はい (`account:accounts:password:sendResetCode CREATE`)
 
-## Path Parameters
+## パスパラメータ
 
-`accountId`: The target account id
-
+`accountId`: アカウントID
 ---
 
-_Example Response_
+_レスポンス例_
 
 Status 204
