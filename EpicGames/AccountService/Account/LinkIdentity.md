@@ -1,8 +1,8 @@
-## Account Service - Set Link Identity Type
+## リンクタイプの設定
 
-URL: https://account-public-service-prod.ol.epicgames.com/account/api/public/account/:accountId/linkIdentity \
-Method: POST \
-Auth Required: Yes (`account:public:account:linkedIdentity CREATE`)
+APIエンドポイントURL: https://account-public-service-prod.ol.epicgames.com/account/api/public/account/:accountId/linkIdentity \
+メソッド: POST \
+認証が必要？: はい (`account:public:account:linkedIdentity CREATE`)
 
 ```json
 {
@@ -11,18 +11,18 @@ Auth Required: Yes (`account:public:account:linkedIdentity CREATE`)
 }
 ```
 
-## Path Parameters
+## パスパラメータ
 
-`accountId`: Your Account Id
+`accountId`: アカウントID
 
-## Parameters
+## パラメータ
 
-`type`: Unknown Value <br/>
-`value`: Unknown Value
+`type`: 不明 <br/>
+`value`: 不明
 
 ---
 
-_Example Response (Invalid Type)_
+_レスポンス例(無効)_
 
 ```json
 {
