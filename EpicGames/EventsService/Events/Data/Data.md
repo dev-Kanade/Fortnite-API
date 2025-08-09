@@ -1,25 +1,25 @@
-## Events Service - Events List (Data)
+## イベントリスト（データ）
 
-URL: https://events-public-service-live.ol.epicgames.com/api/v1/events/:gameId/data/:accountId \
-Method: GET \
-Auth Required: Yes (`{gameId}:profile:{accountId}:commands READ`)
+APIエンドポイントURL: https://events-public-service-live.ol.epicgames.com/api/v1/events/:gameId/data/:accountId \
+APIメソッド: GET \
+認証は必要?: Yes (`{gameId}:profile:{accountId}:commands READ`)
 
-## Path Parameters
+## パスパラメータ
 
-`gameId`: Fortnite <br/>
-`accountId`: Your Account Id
+`gameId`: ゲームID(例:Fortnite) <br/>
+`accountId`: アカウントID
 
-## Query Parameters
+## クエリパラメータ
 
-`region`: optional, e.g. EU (if not specified shows for all regions!) <br/>
-`showPastEvents`: optional, boolean <br/>
-`showPrivateEvents`: optional, boolean, throws if you dont have access (normal people dont have access)
+`region`: 地域(デフォルトはEU) <br/>
+`showPastEvents`: ブール値<br/>
+`showPrivateEvents`: オプション、ブール値、アクセス権がない場合は例外をスローします (通常のユーザーはアクセス権がありません)
 
 ---
 
-_Example Response (shortened)_
+_レスポンス例_
 
-> Same response as [`download api`](./Download.md), but `data api` includes the player info, so look there for a full response
+
 
 ```json
 {
