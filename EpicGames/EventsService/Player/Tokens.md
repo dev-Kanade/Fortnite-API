@@ -1,20 +1,20 @@
-## Events Service - Player Tokens
+## プレイヤートークン
 
-URL: https://events-public-service-live.ol.epicgames.com/api/v1/players/:gameId/tokens \
-Method: GET \
-Auth Required: Yes
+APIエンドポイントURL: https://events-public-service-live.ol.epicgames.com/api/v1/players/:gameId/tokens \
+APIメソッド: GET \
+認証は必要?: Yes
 
-## Path Parameters
+## パスパラメータ
 
-`gameId`: Fortnite
+`gameId`: ゲームID(例:Fortnite)
 
-## Query Parameters
+## クエリパラメータ
 
-`teamAccountIds`: Account Ids seperated by a comma `,`
+`teamAccountIds`: アカウントID
 
 ---
 
-_Example Response_
+_レスポンス例_
 
 ```json
 {
