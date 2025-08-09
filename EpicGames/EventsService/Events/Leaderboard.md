@@ -1,27 +1,26 @@
-## Events Service - Event Window Leaderboard
+## イベントウィンドウリーダーボード
 
-URL: https://events-public-service-live.ol.epicgames.com/api/v1/leaderboards/:gameId/:eventId/:eventWindowId/:accountId \
-Method: GET \
-Auth Required: Yes (`{gameId}:profile:{accountId}:commands READ`)
+APIエンドポイントURL: https://events-public-service-live.ol.epicgames.com/api/v1/leaderboards/:gameId/:eventId/:eventWindowId/:accountId \
+APIメソッド: GET \
+認証は必要？: Yes (`{gameId}:profile:{accountId}:commands READ`)
 
-## Path Parameters
+## パスパラメータ
 
-`gameId`: Fortnite <br/>
-`eventId`: from the Event List <br/>
-`eventWindowId`: from the Event Windows <br/>
-`accountId`: Your Account Id
+`gameId`: 例:Fortnite <br/>
+`eventId`: EventIDを指定 <br/>
+`eventWindowId`: イベントプロパティを指定 <br/>
+`accountId`: アカウントID
 
-## Query Parameters
+## クエリパラメータ
 
 `page`: 0 (0 - 100) <br/>
-`rank`: 1 (The rank is used if page and rank are given (e.g. 54 would still goto page 1 and start at rank 1)) <br/>
-`showLiveSessions`: boolean <br/>
-`teamAccountIds`: Account Ids seperated by a comma `,` <br/>
-`appId`: fortnite
-
+`rank`: 1 (ページとランクが指定されている場合はランクが使用されます (例: 54 でもページ 1 に移動し、ランク 1 から開始されます)) <br/>
+`showLiveSessions`: ブール値 <br/>
+`teamAccountIds`: アカウントID（コンマ`,`で区切る) <br/>
+`appId`: アプリID（例:Fortnite)
 ---
 
-_Example Response_
+_レスポンス例_
 
 ```json
 {
