@@ -1,17 +1,17 @@
-## Events Service - Player Info
+## プレイヤー情報
 
-URL: https://events-public-service-live.ol.epicgames.com/api/v1/players/:gameId/:accountId \
-Method: GET \
-Auth Required: Yes (`{gameId}:profile:{accountId}:commands READ`)
+APIエンドポイントURL: https://events-public-service-live.ol.epicgames.com/api/v1/players/:gameId/:accountId \
+APIメソッド: GET \
+認証は必要?: Yes (`{gameId}:profile:{accountId}:commands READ`)
 
-## Path Parameters
+## パスパラメータ
 
-`gameId`: Fortnite <br/>
-`accountId`: Your Account Id
+`gameId`: ゲームID(例:Fortnite) <br/>
+`accountId`: アカウントID
 
 ---
 
-_Example Response_
+_レスポンス例_
 
 ```json
 {
