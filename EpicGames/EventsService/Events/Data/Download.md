@@ -1,23 +1,22 @@
-## Events Service - Events List (Download)
+## イベントリスト(ダウンロード)
+APIエンドポイントURL: https://events-public-service-live.ol.epicgames.com/api/v1/events/:gameId/download/:accountId \
+APIメソッド: GET \
+認証は必要?: Yes (`{gameId}:profile:{accountId}:commands READ`)
 
-URL: https://events-public-service-live.ol.epicgames.com/api/v1/events/:gameId/download/:accountId \
-Method: GET \
-Auth Required: Yes (`{gameId}:profile:{accountId}:commands READ`)
+## パスパラメータ
 
-## Path Parameters
+`gameId`: ゲームID(例:Fortnite) <br/>
+`accountId`: アカウントID
 
-`gameId`: Fortnite <br/>
-`accountId`: Your Account Id
+##　クエリパラメータ
 
-## Query Parameters
-
-`region`: required, e.g. EU <br/>
-`platform`: required, e.g. Windows <br/>
-`teamAccountIds`: required, Account Ids seperated by a comma `,`
+`region`: 地域(デフォルトでEU)<br/>
+`platform`: プラットフォーム<br/>
+`teamAccountIds`: アカウントID
 
 ---
 
-_Example Response (shortened)_
+_レスポンス例(短縮版)_
 
 ```json
 {
