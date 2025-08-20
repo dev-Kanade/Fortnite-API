@@ -1,6 +1,6 @@
 # 利用可能なホスト名
 
-This are some (not all) Hosts that you can access the Launcher Service from
+以下はランチャーサービスで利用可能なホスト名です。（一部）
 
 - launcher-public-service-prod-ak.beee.live.use1a.on.epicgames.com
 - launcher-public-service-prod-m-substrate.ol.epicgames.com
@@ -23,4 +23,6 @@ This are some (not all) Hosts that you can access the Launcher Service from
 
 # プラットフォーム
 
-`platform`: Windows, Android, IOS, XSX,XB1, PS4, PS5, Switch,Switch2
+`platform`: Windows, Android, IOS, XSX, XB1, PS4, PS5, Switch, Switch2
+
+>iOSとAndroidは、404を返します。これは、検証の際に、パラメーターにミスがあった可能性があるので、404を返さなくなったのを確認したら更新します（奏）
