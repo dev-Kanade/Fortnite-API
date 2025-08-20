@@ -1,11 +1,11 @@
-# Nelly Service
+# ネイリーサービス
 
-Source Package: `nelly` <br/>
-Language: `Go`
+ソースパッケージ: `nelly` <br/>
+開発言語: `Go`
 
-## Hosts
+## ホスト名
 
-| Provider   | Host                                                  |
+| プロバイダー   | ホスト名                                                  |
 | ---------- | ----------------------------------------------------- |
 | direct     | nelly-service-prod.ecbc.live.use1a.on.epicgames.com   |
 | akamai     | nelly-service-prod-akamai.ecosec.on.epicgames.com     |
