@@ -1,4 +1,4 @@
-# Hosts
+# 利用可能なホスト名
 
 This are some (not all) Hosts that you can access the Launcher Service from
 
@@ -16,11 +16,11 @@ This are some (not all) Hosts that you can access the Launcher Service from
 
 <br/>
 
-Recommended Hosts:
+推奨ホスト
 
 - launcher-public-service-prod.ol.epicgames.com
 - launcher-public-service-prod06.ol.epicgames.com
 
-# Data
+# プラットフォーム
 
 `platform`: Windows, Android, IOS, XSX,XB1, PS4, PS5, Switch,Switch2
