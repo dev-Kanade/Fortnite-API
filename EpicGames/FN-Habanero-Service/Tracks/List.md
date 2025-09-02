@@ -1,5 +1,6 @@
 ## FN - Habanero Service: Tracks List
 
+
 URL: https://fn-service-habanero-live-public.ogs.live.on.epicgames.com/api/v1/games/:namespace/tracks/query \
 Method: GET \
 Auth Required: Yes (`rankings:{namespace}:tracks READ`)
