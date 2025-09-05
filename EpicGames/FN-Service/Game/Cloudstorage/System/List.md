@@ -1,12 +1,14 @@
-## FN Service - Cloudstorage: System Files
+## HotFixファイルのリスト
 
 URL: https://fngw-mcp-gc-livefn.ol.epicgames.com/fortnite/api/cloudstorage/system \
-Method: GET \
-Auth Required: Yes (`fortnite:cloudstorage:system READ`)
+HTTPメソッド: GET 
+認証の有無: Yes (`fortnite:cloudstorage:system READ`)　
+**アクセストークンに必要な権限**
+`fortnite:cloudstorage:system` : `READ`
 
 ---
 
-_Example Response (shortened)_
+__レスポンス例__
 
 ```json
 [
