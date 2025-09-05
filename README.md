@@ -36,7 +36,7 @@ EpicGamesのAPIにリクエストするにはHTTPヘッダーにAuthorizationに
   - [ネリーサービス](./EpicGames/NellyService)
   - [ディスプレイネーム検索サービス（利用不可）](./EpicGames/PersonaService)
   - [ニュースフィードAPI](./EpicGames/PRMDialogService)
-  - [ニュースフィードAPI](./EpicGames/StatsProxyService)
+  - [統計データ](./EpicGames/StatsProxyService)
   - [タグ管理API](./EpicGames/TagManagementService)
   - [ユーザ検索](./EpicGames/UserSearchService)
   - [LEGO関連API](./EpicGames/WaspService)
