@@ -1,12 +1,12 @@
-## Global Service - Reboot Rally: Status - Me
-
+## リブートラリー - 自分のアカウントのステータス確認
 URL: https://global-profile-service.game-social.epicgames.com/v1/rebootrally/eligibility \
-Method: PUT (No Body) \
-Auth Required: Yes (No Perm required)
+メソッド: PUT (bodyの指定なし) \
+認証の有無 : はい</br>
+トークンに必要な権限 :指定なし
 
 ---
 
-_Example Response_ - Array with always 1 Element (Your Account)
+__レスポンス例__
 
 ```json
 {
