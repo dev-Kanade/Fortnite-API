@@ -1,8 +1,9 @@
-## Global Service - Profile: Modify Privacy Settings
+## プロフィールの公開設定の更新
 
 URL: https://global-profile-service.game-social.epicgames.com/profile/privacy_settings \
-Method: POST \
-Auth Required: Yes (No Perm required)
+メソッド: POST \
+認証の有無 : はい </br?
+   トークンに必要な権限 : 指定なし
 
 ```json
 {
@@ -15,10 +16,10 @@ Auth Required: Yes (No Perm required)
 }
 ```
 
-## Parameters
+## パラメータ
 
-`namespace`: e.g. `Fortnite` \
-`playRegion` / `languages` / `badges`:
+`namespace`: 更新するゲームID。例:. `Fortnite` \
+`playRegion` / `languages` / `badges`:これらのパラメータの値は以下のいずれかです。
 
 - PUBLIC
 - FRIENDS_ONLY
@@ -26,7 +27,7 @@ Auth Required: Yes (No Perm required)
 
 ---
 
-_Example Response_
+__レスポンス例__
 
 ```json
 {
