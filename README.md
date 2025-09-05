@@ -17,7 +17,7 @@ EpicGamesのAPIにリクエストするにはHTTPヘッダーにAuthorizationに
   - [カルデラ](./EpicGames/CalderaService)
   - [データアセット](./EpicGames/DataAssetDirectoryService)
   - [プラットフォームAPI](./EpicGames/EGSPlatformService)
-  - [エメラルドAPI](./EpicGames/EmeraldService)
+  - [ボイスチャットレポート](./EpicGames/EmeraldService)
   - [競技情報等](./EpicGames/EventsService)
   - [フォートナイトサービス](./EpicGames/FN-Service)
   - [フォートナイトコンテンツAPI](./EpicGames/FN-Content)
