@@ -1,24 +1,27 @@
-## Emerald Service - Upload: Complete
+## アップロード完了
 
 URL: https://emerald-service-live.ecosec.on.epicgames.com/emerald/v1/upload/complete \
-Method: POST \
-Auth Required: Yes (`emerald:upload CREATE`)
-
+メソッド: POST \
+認証の有無: はい </br>
+   トークンに必要な権限:`emerald:upload`:`CREATE`
 ```json
 {
   "token": "VjF7ImMiOiJt...NvcmRpbmcuYmluIn1dfQ=="
 }
 ```
 
-## Parameters
+## パラメータ
 
-`token`: The Token received by the [init response](./Init.md)
+`token`:  [こちら](./Init.md)によって初期化されたアクセストークン
 
 ---
 
-_Example Response (success)_: Status 204
+__レスポンス例(成功)__
+</br>
 
-_Example Response (already uploaded)_
+ステータス:204
+</br>
+__レスポンス例(アップロード済み)__
 
 ```json
 {
