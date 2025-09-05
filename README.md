@@ -26,7 +26,7 @@ EpicGamesのAPIにリクエストするにはHTTPヘッダーにAuthorizationに
   - [フォートナイトホットコンフィグ](./EpicGames/FN-Hotconfig)
   - [フレンドサービス](./EpicGames/FriendsService)
   - [アクティブコード引き換えAPI](./EpicGames/FulfillmentService)
-  - [言語設定...](./EpicGames/GlobalService)
+  - [プロフィール設定](./EpicGames/GlobalService)
   - [IPデータサービス](./EpicGames/IPDataService)
   - [KWS](./EpicGames/KWS)
   - [ランチャーサービスＡＰＩ](./EpicGames/LauncherService)
