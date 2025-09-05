@@ -1,8 +1,9 @@
-## Global Service - Profile: Get Profiles
+## プロフィール情報の取得
 
 URL: https://global-profile-service.game-social.epicgames.com/profiles \
-Method: PUT \
-Auth Required: Yes (No Perm required)
+メソッド: PUT \
+認証の有無 : はい</br>
+   トークンに必要な権限 : 指定なし
 
 ```json
 {
@@ -14,14 +15,14 @@ Auth Required: Yes (No Perm required)
 }
 ```
 
-## Parameters
+## パラメータ
 
-`namespace`: e.g. `Fortnite` \
-`accountIds`: the account ids (up to 100)
+`namespace`: ゲームID。例: `Fortnite` \
+`accountIds`: アカウントID(最大100個)
 
 ---
 
-_Example Response_
+__レスポンス例__
 
 ```json
 {
