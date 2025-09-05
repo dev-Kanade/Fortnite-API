@@ -1,8 +1,9 @@
-## Global Service - Profile: Modify Region
+## プロフィール - リージョンの設定
 
 URL: https://global-profile-service.game-social.epicgames.com/profile/play_region \
-Method: PUT \
-Auth Required: Yes (No Perm required)
+メソッド: PUT \
+認証の有無 : はい</br>
+   トークンに必要な権限 : 指定なし
 
 ```json
 {
@@ -11,10 +12,10 @@ Auth Required: Yes (No Perm required)
 }
 ```
 
-## Parameters
+## パラメータ
 
-`namespace`: e.g. `Fortnite` \
-`play_region`:
+`namespace`: 変更するゲームID。例： `Fortnite` \
+`play_region`:　このパラメータの値は以下のいずれかを指定してください。
 
 - UNDEFINED_REGION
 - NA_CENTRAL
@@ -28,7 +29,7 @@ Auth Required: Yes (No Perm required)
 
 ---
 
-_Example Response_
+__レスポンス例__
 
 ```json
 {}
