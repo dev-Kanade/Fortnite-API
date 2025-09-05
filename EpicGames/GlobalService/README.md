@@ -1,7 +1,7 @@
-# Global Service
+# グローバルサービス
 
-Used in Fortnite for the Friends Sidebar Infos
+フレンド欄関連のAPI（リブートラリーよりのAPI）
 
-## Hosts
+## APIホスト
 
 - global-profile-service.game-social.epicgames.com
