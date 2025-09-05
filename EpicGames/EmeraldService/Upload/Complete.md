@@ -3,7 +3,8 @@
 URL: https://emerald-service-live.ecosec.on.epicgames.com/emerald/v1/upload/complete \
 メソッド: POST \
 認証の有無: はい </br>
-   トークンに必要な権限:`emerald:upload`:`CREATE`
+   トークンに必要な権限: `emerald:upload` : `CREATE`
+
 ```json
 {
   "token": "VjF7ImMiOiJt...NvcmRpbmcuYmluIn1dfQ=="
