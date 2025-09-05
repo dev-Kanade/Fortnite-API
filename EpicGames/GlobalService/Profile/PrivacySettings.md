@@ -1,22 +1,23 @@
-## Global Service - Profile: Get Privacy Settings
+## プロフィールの公開設定
 
 URL: https://global-profile-service.game-social.epicgames.com/profile/privacy_settings \
-Method: PUT \
-Auth Required: Yes (No Perm required)
-
+芽おっど: PUT \
+認証の有無 : はい </br>
+   トークンに必要な権限: 指定なし
+   
 ```json
 {
   "namespace": "Fortnite"
 }
 ```
 
-## Parameters
+## パラメータ
 
-`namespace`: e.g. `Fortnite`
+`namespace`: 取得するゲームID。例： `Fortnite`
 
 ---
 
-_Example Response_
+__レスポンス例__
 
 ```json
 {
