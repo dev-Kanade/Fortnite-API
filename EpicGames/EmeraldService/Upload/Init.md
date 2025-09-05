@@ -1,12 +1,12 @@
-## Emerald Service - Upload: Init
+## アップロード
 
 URL: https://emerald-service-live.ecosec.on.epicgames.com/emerald/v1/upload/init \
-Method: POST \
-Auth Required: Yes (`emerald:upload CREATE`)
-
+メソッド: POST 
+認証の有無: はい </br>
+   トークンに必要な権限: `emerald:upload` : `CREATE`
 ---
 
-_Example Response_
+__レスポンス例__
 
 ```json
 {
