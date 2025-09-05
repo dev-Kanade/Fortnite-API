@@ -1,10 +1,11 @@
-## Global Service - Reboot Rally: Status - User
+## リブートラリー - ユーザーステータス
 
 URL: https://global-profile-service.game-social.epicgames.com/v1/rebootrally/eligibility/:accountId \
-Method: PUT (No Body) \
-Auth Required: Yes (No Perm required)
+メソッド: PUT (bodyの指定なし) \
+認証の有無:はい</br>
+トークンに必要な権限:指定なし
 
-> Always returns invalid auth
+> 常に401を返します。
 >
 > ```json
 > {
