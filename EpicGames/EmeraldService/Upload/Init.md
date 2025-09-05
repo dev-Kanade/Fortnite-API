@@ -1,8 +1,8 @@
 ## アップロード
 
 URL: https://emerald-service-live.ecosec.on.epicgames.com/emerald/v1/upload/init \
-メソッド: POST 
-認証の有無: はい </br>
+メソッド: POST \
+認証の有無: はい \
    トークンに必要な権限: `emerald:upload` : `CREATE`
 ---
 
