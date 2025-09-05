@@ -1,8 +1,9 @@
-## Global Service - Profile: Modify Language
+## グローバルプロフィール - 言語の変更
 
 URL: https://global-profile-service.game-social.epicgames.com/profile/languages \
-Method: PUT \
-Auth Required: Yes (No Perm required)
+メソッド: PUT \
+認証の有無: はい</br>
+   トークンの権限 : 指定なし
 
 ```json
 {
@@ -11,10 +12,10 @@ Auth Required: Yes (No Perm required)
 }
 ```
 
-## Parameters
+## パラメータ
 
-`namespace`: e.g. `Fortnite` \
-`languages`: Maximum 6 Languages
+`namespace`: 言語を更新するゲームのID。例：`Fortnite` \
+`languages`: 最大6言語
 
 - ar
 - de_DE
@@ -27,11 +28,11 @@ Auth Required: Yes (No Perm required)
 - ru_RU
 - tr
 
-> List **may** not be complete
+> このリストはすべてではないと思われます。
 
 ---
 
-_Example Response_
+__レスポンス例__
 
 ```json
 {}
